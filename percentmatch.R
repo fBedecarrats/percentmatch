@@ -1,6 +1,3 @@
-
-bl_t <- bl[1:100, 1:100]
-
 percent_match <- function (x) {
  #  x <- bl_t
   t <- as.tibble(t(x))
