@@ -29,8 +29,3 @@ percent_match <- function (x) {
   out <- tibble(id, pm, id_m)
   return(out)
 }
-
-pm_bl <- percent_match(bl)
-qplot(pm_bl$pm)
-pm_el <- percent_match(el)
-qplot(pm_el$pm)
